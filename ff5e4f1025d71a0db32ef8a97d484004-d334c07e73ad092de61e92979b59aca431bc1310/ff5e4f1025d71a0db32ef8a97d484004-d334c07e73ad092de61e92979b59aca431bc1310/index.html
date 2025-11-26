@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alpine Golf Course</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffffff;
+      color: #222;
+    }
+    header {
+      background: #002654; /* dark blue */
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 100px;
+    }
+    nav a {
+      margin: 0 12px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #e53935; /* red on hover */
+    }
+
+    .hero { 
+  text-align: center;
+  padding: 6rem 2rem;
+  background-image: url("https://i.postimg.cc/0NVgwpcZ/511017841-23907494118903467-2521085653268651002-n.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-bottom: 5px solid #e53935;
+}
+
+    .hero h1 {
+      color: ;
+      font-size: 2.8rem;
+    }
+    .hero p {
+      max-width: 800px;
+      margin: 1rem auto 0;
+      font-size: 1.1rem;
+    }
+
+    .section {
+      padding: 2.5rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #002654;
+      border-bottom: 2px solid #e53935;
+      padding-bottom: 0.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.75rem;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+
+    .testimonials {
+      background: #f9f9f9;
+      padding: 2rem;
+      margin-top: 2rem;
+      border-left: 5px solid #e53935;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #002654;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+    a {
+      color: #e53935;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.postimg.cc/T1SHc0Dq/FFF-alpine-03-1200-X1200.jpg" alt="Alpine Golf Logo">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#rates">Rates</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Welcome to Alpine Golf Course</h1>
+    <p>Located in the heart of Longview, TX, Alpine Golf Course offers a relaxed, welcoming course experience for every golfer from weekend walkers to seasoned members. Family-friendly, Texas proud, and open 7 days a week.</p>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Alpine Golf Course was established with one mission in mind — to offer a fun, laid-back golf experience. We take pride in being a locally loved course, supporting our veterans, first responders, and senior golfers with discounted pricing. Come see what makes Alpine more than just a place to play.</p>
+  </section>
+
+  <section class="section" id="rates">
+    <h2>Rates & Membership</h2>
+    <h3>Daily Rates</h3>
+    <table>
+      <tr><th>Day</th><th>18 Holes</th><th>9 Holes</th></tr>
+      <tr><td>Mon–Thurs</td><td>$36.50</td><td>$27.50</td></tr>
+      <tr><td>Friday</td><td>$38.50</td><td>$29.50</td></tr>
+      <tr><td>Sat–Sun & Holidays</td><td>$53.00</td><td>$39.50</td></tr>
+    </table>
+    <p><strong>* Seniors 62+, Military, and First Responders – Special Rates Available *</strong></p>
+
+    <h3>Membership Options</h3>
+    <table>
+      <tr><th>Plan</th><th>Walking</th><th>With Cart</th><th>Single Rider Cart</th></tr>
+      <tr><td>Monthly</td><td>$138</td><td>$253</td><td>$316</td></tr>
+      <tr><td>Yearly</td><td>$1,265</td><td>$2,760</td><td>$3,450</td></tr>
+    </table>
+    <p><em>* No 7-day memberships. Discounts apply for seniors, military, and first responders.</em></p>
+  </section>
+
+  <section class="section" id="events">
+    <h2>Events</h2>
+    <ul>
+      <li><strong>Monday-Wednesday-Friday:</strong> MGA League</li>
+      <li><strong>Thursday:</strong> Senior Scramble</li>
+      <li><strong>Tournaments:</strong> Please contact us to schedule</li>
+    </ul>
+    <p><strong>Dress Code:</strong> We don’t have one — come as you are.</p>
+     <p><strong>Tee Times:</strong> Walk-ons only — no booking needed.</p>
+   <p><strong>Twilight Hours:</strong> Not Offered.</p>
+  
+  </section>
+
+  <section class="section testimonials">
+    <h2>Testimonials</h2>
+    <p>"One of the best hidden gems in East Texas. Affordable and friendly!" – Jordan M.</p>
+    <p>"Great people, chill vibe, and no dress code! Love this course." – Becky R.</p>
+    <p>"Always treated with respect here. Perfect for veterans and locals alike." – Daniel P.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 2385 Smelly Rd, Longview, TX 75604</p>
+    <p><strong>Phone:</strong> <a href="tel:9037534515">903-753-4515</a></p>
+    <p><strong>Hours:</strong> 7:00 AM – 7:00 PM</p>
+    <p><strong>Facebook:</strong> <a href
+
+ 
+</section>
+
+  <footer>
+    <p>&copy; 2025 Alpine Golf Course | Designed with ❤️ in Texas</p>
+  </footer>
+</body>
+</html>
